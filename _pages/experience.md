@@ -4,7 +4,7 @@ title: "Experience"
 permalink: /experience/
 ---
 
-My professional and work experience — click any title to read more.
+Below you'll find my professional and work experience. Click any title to read more!
 
 | Role | Organization | Timeline |
 |---|---|---|

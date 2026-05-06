@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-A collection of my technical projects — click any title to read more.
+Below is a collection of my technical projects. Click any title to read more!
 
 | Project | Type | Timeline |
 |---|---|---|
