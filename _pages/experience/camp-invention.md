@@ -5,27 +5,22 @@ permalink: /experience/camp-invention/
 ---
 
 <div class="project-meta">
-  <strong>Organization:</strong> Camp Invention &nbsp;|&nbsp;
-  <strong>Location:</strong> Millinocket, ME &nbsp;|&nbsp;
+  <strong>Organization:</strong> Camp Invention &nbsp;|&nbsp; 
+    <br>
+  <strong>Location:</strong> Millinocket, ME &nbsp;|&nbsp; 
+    <br>
   <strong>Timeline:</strong> Summers 2023 &amp; 2024
 </div>
 
 ## About Camp Invention
 
-<!-- REPLACE: Brief description of Camp Invention for visitors who may not know it. -->
-[Camp Invention is a nationally recognized STEM enrichment program for K–6 students,
-run in partnership with the National Inventors Hall of Fame. Add any additional context
-about how this program works at your site.]
+Camp Invention is a nationally recognized STEM enrichment program for K–6 students,
+run in partnership with the National Inventors Hall of Fame.
 
 ## My Role
 
 As an Instructor, I led hands-on engineering, circuits, and business curriculum
 for K–2 students over multiple weeks across two summers.
-
-<!-- REPLACE: Add detail — how many students, how many weeks, did you work solo or
-     with a co-instructor? -->
-[Add context: how many students were in your group, how long each session was,
-and how you were organized with other instructors.]
 
 ## What I Did
 
