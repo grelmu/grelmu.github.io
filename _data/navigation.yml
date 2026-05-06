@@ -1,9 +1,36 @@
 main:
   - title: "Home"
     url: /
+
   - title: "Projects"
     url: /projects/
+    children:
+      - title: "Safer Travels"
+        url: /projects/safer-travels/
+      - title: "Thread Zeppelin"
+        url: /projects/thread-zeppelin/
+      - title: "Resume Builder"
+        url: /projects/resume-builder/
+      - title: "StyleNest"
+        url: /projects/stylenest/
+      - title: "Personal Website"
+        url: /projects/personal-website/
+      - title: "PenGRED"
+        url: /projects/pengred/
+
   - title: "Experience"
     url: /experience/
+    children:
+      - title: "Software Dev Intern — FieldStack"
+        url: /experience/fieldstack-intern/
+      - title: "Instructor — Camp Invention"
+        url: /experience/camp-invention/
+      - title: "Hostess — Hollywood Casino"
+        url: /experience/hostess/
+      - title: "Head Server — Boatman's"
+        url: /experience/head-server/
+      - title: "Tutor — Self-employed"
+        url: /experience/tutor/
+
   - title: "Resume"
     url: /resume/
