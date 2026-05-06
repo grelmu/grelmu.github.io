@@ -6,7 +6,9 @@ permalink: /projects/personal-website/
 
 <div class="project-meta">
   <strong>Role:</strong> Owner / Developer &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> April 2026 – May 2026 &nbsp;|&nbsp;
+  <br>
   <strong>Type:</strong> Personal Project
 </div>
 
@@ -14,10 +16,6 @@ permalink: /projects/personal-website/
 
 This site! Built to showcase my work, communicate my experience to hiring managers
 and collaborators, and serve as a living document that grows with my career.
-
-<!-- REPLACE: Add your motivation for building a personal portfolio site. -->
-[Explain why you decided to build a personal portfolio. What did you want
-visitors to take away? How does it represent you professionally?]
 
 ## What I Built
 
@@ -31,9 +29,6 @@ Key features:
 - Custom SCSS overrides for the card-based layout
 - Hamburger navigation for easy page traversal
 
-<!-- REPLACE: Add any other features or customizations you made. -->
-[Describe any additional customizations, features, or design decisions you made.]
-
 ## Technologies Used
 
 - **HTML / CSS / JavaScript**
@@ -41,12 +36,7 @@ Key features:
 - **Minimal Mistakes** — Jekyll theme
 - **GitHub Pages** — hosting
 - **SCSS** — custom styling overrides
-
-## What I Learned
-
-<!-- REPLACE: -->
-[What did building this site teach you? Did you learn anything new about
-Jekyll, static site generators, web design, or GitHub Pages?]
+- **Claude** — helped with the initial base of the website
 
 ## Links
 
