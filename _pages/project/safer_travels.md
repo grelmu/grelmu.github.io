@@ -6,38 +6,28 @@ permalink: /projects/safer-travels/
 
 <div class="project-meta">
   <strong>Role:</strong> Owner &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> April 2026 – Present &nbsp;|&nbsp;
+    <br>
   <strong>Type:</strong> Personal Project
 </div>
 
 ## Overview
 
-<!-- REPLACE this paragraph with your description of Safer Travels.
-     Suggested structure: What problem does it solve? Who is it for?
-     What made you want to build it? -->
-[Describe what Safer Travels is and why you created it. What problem are you solving?
-Who is your target user? What was your motivation for starting this project?]
+Traveling alone as a woman means getting conflicting information from government advisories, social media, and forums, with no clear picture of what a destination is actually like. Safer Travels is designed to reduce that friction.
+
+The app pulls U.S. State Department travel recommendations together with crowdsourced reviews from real travelers in one place. Users can look up a country, view current advisories, read reviews from other travelers, and leave their own after visiting. The current version focuses on women and LGBTQ+ travelers, with plans to expand to people of color, travelers with disabilities, and others who need tailored guidance.
+
+Solo travel has grown significantly. Women represent up to 71% of solo travelers (Forbes) and safety is the top factor in destination decisions (McKinsey & Company). The app is mobile-first, built for travelers who pack light and need reliable information on the go.
 
 ## What I Built
 
-<!-- REPLACE: Walk through what the application does. Be specific — what features
-     did you implement? What can a user do with it? -->
-[Walk through the core features. E.g., "Users can... The app lets you...
-I implemented..."]
+This app is currenty in the design phase and is transition to the building phase.
 
 ## Technologies Used
 
-<!-- REPLACE: List the languages, frameworks, libraries, APIs, etc. you used. -->
-- [Language / Framework]
-- [Library or API]
-- [Any tools or services]
+- Figma - Designing and prototyping
 
-## Challenges & What I Learned
-
-<!-- REPLACE: What was hard? What did you figure out along the way?
-     This is great content for interviewers. -->
-[Describe a specific technical challenge you faced and how you solved it.
-What did this project teach you?]
 
 ## Gallery
 
@@ -56,5 +46,5 @@ What did this project teach you?]
 <div class="project-links">
   <!-- REPLACE the href values with your actual URLs. Remove any that don't apply. -->
   <a href="https://github.com/grelmu/safer-travels" target="_blank">GitHub Repo</a>
-  <!-- <a href="[live demo URL]" target="_blank">Live Demo</a> -->
+  <a href="https://www.figma.com/design/v9XdedSD7ES8EGRLD8lel3/UXD-HW3-Travel-App?node-id=0-1&p=f&t=UTOm66xfMEnjqQMe-0" target="_blank">Figma Design</a> 
 </div>
