@@ -2,6 +2,28 @@
    Grace Murray — custom styles layered on top of contrast skin
    ============================================================= */
 
+/* ---- Widen the main content area ---- */
+/* Minimal Mistakes caps content at ~600px by default.
+   This overrides that so text fills the available space. */
+.page__content,
+.page,
+#main {
+  max-width: 100% !important;
+  float: none !important;
+}
+
+.page__inner-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+/* ---- Scale down base font slightly ---- */
+/* MM's default is 18-20px which reads large on desktop */
+html {
+  font-size: 15px;
+}
+
 /* ---- About Section ---- */
 .about-section {
   padding: 2em 0 1.5em;
@@ -9,17 +31,18 @@
 
 .about-inner {
   display: flex;
+  flex-direction: row;        /* force side-by-side always */
   align-items: flex-start;
   gap: 2em;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;          /* prevent stacking */
 }
 
 .about-photo {
-  flex: 0 0 180px;
+  flex: 0 0 160px;            /* fixed width, won't grow or shrink */
 
   img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid $border-color;
@@ -28,16 +51,17 @@
 }
 
 .about-text {
-  flex: 1 1 280px;
+  flex: 1 1 0;                /* take all remaining space */
+  min-width: 0;               /* prevent overflow */
 
   h1 {
     margin-top: 0;
     margin-bottom: 0.15em;
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   .about-tagline {
-    font-size: 1.05em;
+    font-size: 1em;
     opacity: 0.75;
     margin-top: 0;
     margin-bottom: 0.8em;
@@ -59,7 +83,7 @@
 
 /* ---- Section Headings ---- */
 .section-heading {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-bottom: 1.2em;
   padding-bottom: 0.4em;
   border-bottom: 1px solid $border-color;
@@ -68,7 +92,7 @@
 /* ---- Card Grid ---- */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.25em;
 }
 
@@ -175,19 +199,24 @@
 }
 
 /* ---- Responsive tweaks ---- */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .about-inner {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
   }
 
   .about-photo img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
 
   .about-links {
     text-align: center;
+  }
+
+  .page__inner-wrap {
+    padding: 0 1em;
   }
 }
