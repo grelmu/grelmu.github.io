@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Thread Zeppelin"
 permalink: /projects/thread-zeppelin/
 ---

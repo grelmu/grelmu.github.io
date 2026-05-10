@@ -1,12 +1,14 @@
 ---
-layout: single
+layout: page
 title: "Tutor — Self-employed"
 permalink: /experience/tutor/
 ---
 
 <div class="project-meta">
   <strong>Type:</strong> Self-employed &nbsp;|&nbsp;
+    <br>
   <strong>Location:</strong> Millinocket, ME &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> Fall 2020 – Spring 2022
 </div>
 

@@ -1,62 +1,26 @@
 title: "Grace Murray"
-name: "Grace Murray"
 description: "Software Developer & Computer Science Student"
 url: "https://grelmu.github.io"
 baseurl: ""
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "contrast"
-
-# Build settings
+# No remote theme — fully custom
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 timezone: America/New_York
 
-# Tell Jekyll to process everything inside _pages and its subdirectories
 include:
   - _pages
   - _pages/projects
   - _pages/experience
 
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-sitemap
 
-# Author info
-author:
-  name: "Grace Murray"
-  avatar: "/assets/images/profile.jpg"   # <-- REPLACE with your actual photo path
-  bio: "[Your short bio here — 1-2 sentences about who you are and what you're looking for]"
-  location: "Maine, USA"
-  email: "gmurray0505@gmail.com"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/grelmu"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/grace--murray"
-
-# Defaults — apply layout to all pages automatically
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-
-# Exclude from processing
 exclude:
-  - "*.gemspec"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "vendor"
-  - ".bundle"
-  - ".jekyll-cache"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache

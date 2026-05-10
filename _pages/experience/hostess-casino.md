@@ -1,12 +1,14 @@
 ---
-layout: single
+layout: page
 title: "Hostess — Hollywood Casino Hops House 99"
 permalink: /experience/hostess/
 ---
 
 <div class="project-meta">
   <strong>Employer:</strong> Hollywood Casino Hops House 99 &nbsp;|&nbsp;
+    <br>
   <strong>Location:</strong> Bangor, ME &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> July 2023 – August 2024
 </div>
 

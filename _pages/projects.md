@@ -1,16 +1,47 @@
 ---
-layout: single
+layout: page
 title: "Projects"
 permalink: /projects/
 ---
 
-Below is a collection of my technical projects. Click any title to read more!
-
-| Project | Type | Timeline |
-|---|---|---|
-| [Safer Travels](/projects/safer-travels/) | Personal Project | April 2026 – Present |
-| [Thread Zeppelin](/projects/thread-zeppelin/) | Capstone · UMaine | Sept 2025 – May 2026 |
-| [Resume Builder](/projects/resume-builder/) | User Design · UMaine | Jan 2026 – May 2026 |
-| [StyleNest](/projects/stylenest/) | Software Engineering · UMaine | Fall–Winter 2024 |
-| [Personal Website](/projects/personal-website/) | Personal Project | April–May 2026 |
-| [PenGRED](/projects/pengred/) | Biomedical · UMass | Fall 2021 |
+<table class="listing-table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Type</th>
+      <th>Timeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/projects/safer-travels/">Safer Travels</a></td>
+      <td>Personal Project</td>
+      <td>April 2026 – Present</td>
+    </tr>
+    <tr>
+      <td><a href="/projects/thread-zeppelin/">Thread Zeppelin</a></td>
+      <td>Capstone · UMaine</td>
+      <td>Sept 2025 – May 2026</td>
+    </tr>
+    <tr>
+      <td><a href="/projects/resume-builder/">Resume Builder</a></td>
+      <td>User Design · UMaine</td>
+      <td>Jan 2026 – May 2026</td>
+    </tr>
+    <tr>
+      <td><a href="/projects/stylenest/">StyleNest</a></td>
+      <td>Software Engineering · UMaine</td>
+      <td>Fall – Winter 2024</td>
+    </tr>
+    <tr>
+      <td><a href="/projects/personal-website/">Personal Website</a></td>
+      <td>Personal Project</td>
+      <td>April – May 2026</td>
+    </tr>
+    <tr>
+      <td><a href="/projects/pengred/">PenGRED</a></td>
+      <td>Biomedical · UMass</td>
+      <td>Fall 2021</td>
+    </tr>
+  </tbody>
+</table>

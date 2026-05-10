@@ -1,5 +1,5 @@
 ---
-layout: home-custom
+layout: home
 permalink: /
 title: false
 ---

@@ -1,23 +1,31 @@
 ---
-layout: single
+layout: page
 title: "Resume"
 permalink: /resume/
 ---
 
-<!-- REPLACE: You have a few options here:
-     1. Embed your resume as a PDF using an iframe (recommended):
+<!-- OPTION 1 (recommended): Embed your PDF directly.
+     Upload your resume to /assets/files/grace-murray-resume.pdf
+     then uncomment the block below and delete the placeholder text. -->
 
-        <iframe src="/assets/files/grace-murray-resume.pdf"
-                width="100%" height="900px"
-                style="border: 1px solid #ccc;">
-        </iframe>
-        <p><a href="/assets/files/grace-murray-resume.pdf" download>Download PDF</a></p>
+<!--
+<iframe
+  src="/assets/files/grace-murray-resume.pdf"
+  width="100%"
+  height="900px"
+  style="border: 1px solid #333; border-radius: 4px;">
+</iframe>
 
-     2. Upload your resume PDF to /assets/files/ and link to it:
+<div class="project-links" style="margin-top: 1em;">
+  <a href="/assets/files/grace-murray-resume.pdf" download>Download PDF</a>
+</div>
+-->
 
-        [Download my resume (PDF)](/assets/files/grace-murray-resume.pdf)
-
-     3. Write your resume content directly in Markdown below.
+<!-- OPTION 2: Just link to it -->
+<!--
+<div class="project-links">
+  <a href="/assets/files/grace-murray-resume.pdf" download>Download Resume (PDF)</a>
+</div>
 -->
 
 *Resume coming soon — check back shortly!*

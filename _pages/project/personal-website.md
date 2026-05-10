@@ -1,14 +1,14 @@
 ---
-layout: single
+layout: page
 title: "Personal Website"
 permalink: /projects/personal-website/
 ---
 
 <div class="project-meta">
-  <strong>Role:</strong> Owner / Developer &nbsp;|&nbsp;
+  <strong>Role:</strong> Owner / Developer &nbsp;·&nbsp;
     <br>
-  <strong>Timeline:</strong> April 2026 – May 2026 &nbsp;|&nbsp;
-  <br>
+  <strong>Timeline:</strong> April 2026 – May 2026 &nbsp;·&nbsp;
+    <br>
   <strong>Type:</strong> Personal Project
 </div>
 
@@ -19,24 +19,23 @@ and collaborators, and serve as a living document that grows with my career.
 
 ## What I Built
 
-The site is built with **Jekyll** using the **Minimal Mistakes** theme,
-hosted on **GitHub Pages** at [grelmu.github.io](https://grelmu.github.io).
+The site is built with **Jekyll** (no theme framework), hosted on **GitHub Pages**
+at [grelmu.github.io](https://grelmu.github.io).
 
 Key features:
-- About Me section with photo and bio on the landing page
+- Custom layout and color palette built entirely from scratch
+- About Me section with photo on the landing page
+- Card-based project and experience grid on the home page
 - Separate detail pages for every project and experience
-- Responsive design with the contrast skin
-- Custom SCSS overrides for the card-based layout
-- Hamburger navigation for easy page traversal
+- Responsive design with a collapsible hamburger menu on mobile
+- Dropdown navigation to every individual page
 
 ## Technologies Used
 
-- **HTML / CSS / JavaScript**
-- **Jekyll** — static site generator
-- **Minimal Mistakes** — Jekyll theme
-- **GitHub Pages** — hosting
-- **SCSS** — custom styling overrides
-- **Claude** — helped with the initial base of the website
+- HTML · CSS · JavaScript
+- Jekyll (static site generator)
+- GitHub Pages (hosting)
+- Claude (building the base)
 
 ## Links
 

@@ -1,0 +1,541 @@
+---
+---
+
+/* =============================================================
+   Grace Murray — Custom Portfolio Theme
+   Palette:
+     Coral/orange : #ff6c60  (primary accent, from MM contrast)
+     Teal         : #2ab7b7  (complementary)
+     Dark bg      : #1a1a1a
+     Surface      : #2e2e2e
+     Border       : #333333
+     Text primary : #e8e8e8
+     Text muted   : #999999
+   ============================================================= */
+
+/* ---- Reset & base ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #1a1a1a;
+  color: #e8e8e8;
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: #ff6c60; text-decoration: none; }
+a:hover { color: #ff9088; text-decoration: underline; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+p { margin-bottom: 1em; }
+p:last-child { margin-bottom: 0; }
+
+ul, ol { padding-left: 1.4em; margin-bottom: 1em; }
+li { margin-bottom: 0.3em; }
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 2em 0;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85em;
+  background: #2e2e2e;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: #2ab7b7;
+}
+
+/* ---- Layout wrapper ---- */
+.site-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 2em 0 3em;
+}
+
+/* =============================================================
+   HEADER & NAV
+   ============================================================= */
+.site-header {
+  background: #111111;
+  border-bottom: 2px solid #ff6c60;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.site-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #ff6c60 !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.site-title:hover { color: #ff9088 !important; }
+
+/* ---- Hamburger button (mobile only) ---- */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 200;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #e8e8e8;
+  border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Hamburger → X animation */
+.nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2) { opacity: 0; }
+.nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ---- Desktop nav ---- */
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav > ul > li {
+  position: relative;
+}
+
+.site-nav > ul > li > a {
+  display: block;
+  padding: 0 1em;
+  height: 56px;
+  line-height: 56px;
+  font-size: 0.88em;
+  font-weight: 500;
+  color: #e8e8e8;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.site-nav > ul > li > a:hover,
+.site-nav > ul > li > a.active {
+  color: #ff6c60;
+  background: rgba(255, 108, 96, 0.08);
+}
+
+/* ---- Dropdown menus ---- */
+.site-nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-top: 2px solid #2ab7b7;
+  min-width: 220px;
+  padding: 0.4em 0;
+  z-index: 200;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.site-nav .has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.site-nav .dropdown li a {
+  display: block;
+  padding: 0.5em 1.1em;
+  font-size: 0.83em;
+  color: #d4d4d4;
+  text-decoration: none;
+  transition: color 0.1s, background 0.1s;
+}
+
+.site-nav .dropdown li a:hover {
+  color: #2ab7b7;
+  background: rgba(42, 183, 183, 0.08);
+}
+
+/* =============================================================
+   HOME PAGE
+   ============================================================= */
+
+/* ---- About section ---- */
+.about-section { padding: 2em 0 1.5em; }
+
+.about-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.5em;
+  flex-wrap: nowrap;
+}
+
+.about-photo {
+  flex: 0 0 155px;
+}
+
+.about-photo img {
+  width: 155px;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff6c60;
+}
+
+.about-text { flex: 1 1 0; min-width: 0; }
+
+.about-text h1 {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+  color: #f0f0f0;
+}
+
+.about-tagline {
+  font-size: 0.95em;
+  color: #2ab7b7;
+  margin-bottom: 0.9em;
+  font-style: italic;
+}
+
+.about-bio { font-size: 0.92em; color: #d4d4d4; }
+
+.about-links {
+  margin-top: 1em;
+  font-size: 0.88em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.2em;
+}
+
+.about-links a {
+  color: #2ab7b7;
+}
+.about-links a:hover { color: #4dcfcf; }
+
+/* ---- Section headings ---- */
+.section-heading {
+  font-size: 1.25em;
+  color: #f0f0f0;
+  margin-bottom: 1.1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.section-heading::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 1.1em;
+  background: #ff6c60;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.portfolio-section { margin-bottom: 1em; }
+
+/* ---- Card grid ---- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1em;
+}
+
+/* ---- Cards ---- */
+.portfolio-card {
+  background: #2e2e2e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 1.1em 1.2em;
+  transition: border-color 0.2s, transform 0.15s, box-shadow 0.15s;
+}
+
+.portfolio-card:hover {
+  border-color: #ff6c60;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  margin-bottom: 0.4em;
+}
+
+.card-date {
+  font-size: 0.75em;
+  color: #888;
+}
+
+.card-tag {
+  font-size: 0.72em;
+  padding: 0.15em 0.5em;
+  border: 1px solid #2ab7b7;
+  border-radius: 3px;
+  color: #2ab7b7;
+}
+
+.portfolio-card h3 {
+  font-size: 0.95em;
+  margin-bottom: 0.45em;
+}
+
+.portfolio-card h3 a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+
+.portfolio-card h3 a:hover {
+  color: #ff6c60;
+  text-decoration: none;
+}
+
+.portfolio-card p {
+  font-size: 0.85em;
+  color: #c0c0c0;
+  line-height: 1.5;
+  margin-bottom: 0.4em;
+}
+
+.card-skills {
+  font-size: 0.78em;
+  color: #777;
+  font-style: italic;
+}
+
+/* =============================================================
+   DETAIL PAGES (projects & experience)
+   ============================================================= */
+.page-content {
+  max-width: 780px;
+}
+
+.page-content h1 {
+  font-size: 1.7em;
+  margin-bottom: 0.3em;
+  color: #f0f0f0;
+}
+
+.project-meta {
+  font-size: 0.83em;
+  color: #888;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid #333;
+}
+
+.page-content h2 {
+  font-size: 1.1em;
+  color: #ff6c60;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #2e2e2e;
+}
+
+.page-content h3 {
+  font-size: 1em;
+  color: #2ab7b7;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+.page-content p, .page-content li {
+  font-size: 0.92em;
+  color: #d4d4d4;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75em;
+  margin: 1.5em 0;
+}
+
+.project-gallery img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 1.5em 0;
+}
+
+.project-links a {
+  font-size: 0.88em;
+  padding: 0.4em 1em;
+  border: 1px solid #ff6c60;
+  border-radius: 4px;
+  color: #ff6c60;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.project-links a:hover {
+  background: #ff6c60;
+  color: #111;
+  text-decoration: none;
+}
+
+/* ---- Listing pages (projects index, experience index) ---- */
+.listing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
+.listing-table th {
+  text-align: left;
+  padding: 0.5em 0.8em;
+  border-bottom: 2px solid #ff6c60;
+  color: #888;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.listing-table td {
+  padding: 0.65em 0.8em;
+  border-bottom: 1px solid #2a2a2a;
+  color: #d4d4d4;
+  vertical-align: top;
+}
+
+.listing-table tr:hover td { background: #2e2e2e; }
+
+.listing-table a { color: #e8e8e8; }
+.listing-table a:hover { color: #ff6c60; text-decoration: none; }
+
+/* =============================================================
+   FOOTER
+   ============================================================= */
+.site-footer {
+  background: #111;
+  border-top: 1px solid #282828;
+  padding: 1.5em 0;
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.site-footer a { color: #666; }
+.site-footer a:hover { color: #ff6c60; }
+
+/* =============================================================
+   MOBILE
+   ============================================================= */
+@media (max-width: 700px) {
+  /* Show hamburger, hide desktop nav */
+  .nav-toggle { display: flex; }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background: #111;
+    border-bottom: 1px solid #333;
+    padding: 0.5em 0 1em;
+  }
+
+  .site-nav.open { display: block; }
+
+  .site-nav ul { flex-direction: column; gap: 0; }
+
+  .site-nav > ul > li > a {
+    height: auto;
+    line-height: 1.4;
+    padding: 0.65em 1.5em;
+  }
+
+  /* Dropdowns always visible on mobile, indented */
+  .site-nav .dropdown {
+    display: block;
+    position: static;
+    border: none;
+    border-top: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    min-width: unset;
+  }
+
+  .site-nav .dropdown li a {
+    padding: 0.4em 1.5em 0.4em 2.5em;
+    font-size: 0.82em;
+    color: #888;
+  }
+
+  .site-nav .dropdown li a:hover { color: #2ab7b7; background: none; }
+
+  /* About section stacks on mobile */
+  .about-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .about-photo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-links { justify-content: center; }
+
+  .site-wrap { padding: 0 1em; }
+
+  .card-grid { grid-template-columns: 1fr; }
+}

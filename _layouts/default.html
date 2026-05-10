@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title and page.title != false %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a href="/" class="site-title">{{ site.title }}</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          {% for item in site.data.navigation.main %}
+            {% if item.children %}
+              <li class="has-dropdown">
+                <a href="{{ item.url }}"
+                   {% if page.url == item.url %}class="active"{% endif %}>
+                  {{ item.title }}
+                </a>
+                <ul class="dropdown">
+                  {% for child in item.children %}
+                    <li>
+                      <a href="{{ child.url }}"
+                         {% if page.url == child.url %}class="active"{% endif %}>
+                        {{ child.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li>
+                <a href="{{ item.url }}"
+                   {% if page.url == item.url %}class="active"{% endif %}>
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="site-wrap">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-wrap">
+      &copy; {{ 'now' | date: "%Y" }} Grace Murray &nbsp;·&nbsp;
+      <a href="https://github.com/grelmu" target="_blank">GitHub</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/grace--murray" target="_blank">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="mailto:gmurray0505@gmail.com">gmurray0505@gmail.com</a>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.classList.toggle('open');
+      nav.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+
+</body>
+</html>

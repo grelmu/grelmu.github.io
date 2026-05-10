@@ -1,15 +1,16 @@
 ---
-layout: single
+layout: page
 title: "Safer Travels"
 permalink: /projects/safer-travels/
 ---
 
 <div class="project-meta">
-  <strong>Role:</strong> Owner &nbsp;|&nbsp;
+  <strong>Role:</strong> Owner &nbsp;·&nbsp;
     <br>
-  <strong>Timeline:</strong> April 2026 – Present &nbsp;|&nbsp;
+  <strong>Timeline:</strong> April 2026 – Present &nbsp;·&nbsp;
     <br>
   <strong>Type:</strong> Personal Project
+    <br>
 </div>
 
 ## Overview
@@ -22,23 +23,18 @@ Solo travel has grown significantly. Women represent up to 71% of solo travelers
 
 ## What I Built
 
-This app is currenty in the design phase and is transition to the building phase.
+This app is currently in the design phase and is transitioning to the building phase.
 
 ## Technologies Used
 
 - Figma - Designing and prototyping
 
-
 ## Gallery
 
-<!-- Add images by placing them in /assets/images/safer-travels/
-     then referencing them below. Remove this section if no images yet. -->
 <div class="project-gallery">
-  <!-- Example:
-  <img src="/assets/images/safer-travels/screenshot-1.png" alt="[describe image]" />
-  <img src="/assets/images/safer-travels/screenshot-2.png" alt="[describe image]" />
+  <!-- Add screenshots once available:
+  ![Screenshot description](/assets/images/safer-travels/screenshot-1.png)
   -->
-  <!-- PLACEHOLDER: Add screenshots once available -->
 </div>
 
 ## Links
@@ -46,5 +42,5 @@ This app is currenty in the design phase and is transition to the building phase
 <div class="project-links">
   <!-- REPLACE the href values with your actual URLs. Remove any that don't apply. -->
   <a href="https://github.com/grelmu/safer-travels" target="_blank">GitHub Repo</a>
-  <a href="https://www.figma.com/design/v9XdedSD7ES8EGRLD8lel3/UXD-HW3-Travel-App?node-id=0-1&p=f&t=UTOm66xfMEnjqQMe-0" target="_blank">Figma Design</a> 
+  <a href="https://www.figma.com/design/v9XdedSD7ES8EGRLD8lel3/UXD-HW3-Travel-App?node-id=0-1&p=f&t=UTOm66xfMEnjqQMe-0" target="_blank">Figma Design</a>
 </div>

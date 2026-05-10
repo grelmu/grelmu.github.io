@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Instructor — Camp Invention"
 permalink: /experience/camp-invention/
 ---

@@ -1,12 +1,14 @@
 ---
-layout: single
+layout: page
 title: "StyleNest"
 permalink: /projects/stylenest/
 ---
 
 <div class="project-meta">
   <strong>Role:</strong> Developer &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> Fall 2024 – Winter 2024 &nbsp;|&nbsp;
+    <br>
   <strong>Type:</strong> Software Engineering Project — University of Maine
 </div>
 

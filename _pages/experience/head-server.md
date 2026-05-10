@@ -1,12 +1,14 @@
 ---
-layout: single
+layout: page
 title: "Head Server — Boatman's Bar and Grill"
 permalink: /experience/head-server/
 ---
 
 <div class="project-meta">
   <strong>Employer:</strong> Boatman's Bar and Grill &nbsp;|&nbsp;
+    <br>
   <strong>Location:</strong> Millinocket, ME &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> Summer 2022
 </div>
 

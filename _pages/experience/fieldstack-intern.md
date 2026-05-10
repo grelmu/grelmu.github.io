@@ -1,12 +1,14 @@
 ---
-layout: single
+layout: page
 title: "Software Development Intern — FieldStack"
 permalink: /experience/fieldstack-intern/
 ---
 
 <div class="project-meta">
   <strong>Company:</strong> FieldStack &nbsp;|&nbsp;
+    <br>
   <strong>Location:</strong> Portland, ME &nbsp;|&nbsp;
+    <br>
   <strong>Timeline:</strong> Summer 2025
 </div>
 
