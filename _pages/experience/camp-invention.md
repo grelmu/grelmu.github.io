@@ -6,9 +6,7 @@ permalink: /experience/camp-invention/
 
 <div class="project-meta">
   <strong>Organization:</strong> Camp Invention &nbsp;|&nbsp; 
-    <br>
   <strong>Location:</strong> Millinocket, ME &nbsp;|&nbsp; 
-    <br>
   <strong>Timeline:</strong> Summers 2023 &amp; 2024
 </div>
 
@@ -28,23 +26,12 @@ for K–2 students over multiple weeks across two summers.
 Adapted and taught engineering, circuits, and business concepts to K–2 students,
 making complex ideas accessible and engaging for young learners.
 
-<!-- REPLACE: Give an example of a specific lesson or activity that went well. -->
-[Describe a specific lesson or project that students responded to well.
-What did you adapt and why?]
-
 **Problem-Solving & Creativity**
 Emphasized problem-solving and creativity as core skills in STEM education.
 
-<!-- REPLACE: -->
-[How did you build these skills in your students? Any specific approach or
-moment that stands out?]
-
 ## What I Learned
 
-<!-- REPLACE: -->
-[What did this experience teach you about communication, adaptability, and
-making technical concepts accessible? How does it connect to your work as
-a software developer?]
+Having this opportunity strengthened my communication skills and taught me how to simplify complrex ideas into concepts children could easily understand.
 
 ## Links
 
