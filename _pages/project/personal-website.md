@@ -6,9 +6,7 @@ permalink: /projects/personal-website/
 
 <div class="project-meta">
   <strong>Role:</strong> Owner / Developer &nbsp;·&nbsp;
-    <br>
   <strong>Timeline:</strong> April 2026 – May 2026 &nbsp;·&nbsp;
-    <br>
   <strong>Type:</strong> Personal Project
 </div>
 

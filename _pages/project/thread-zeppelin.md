@@ -6,9 +6,7 @@ permalink: /projects/thread-zeppelin/
 
 <div class="project-meta">
   <strong>Role:</strong> Product Owner &nbsp;|&nbsp; 
-    <br>
   <strong>Timeline:</strong> September 2025 – May 2026 &nbsp;|&nbsp; 
-    <br>
   <strong>Type:</strong> Capstone Project — University of Maine
 </div>
 

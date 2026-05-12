@@ -6,9 +6,7 @@ permalink: /projects/pengred/
 
 <div class="project-meta">
   <strong>Role:</strong> Researcher &nbsp;·&nbsp;
-    <br>
   <strong>Timeline:</strong> Fall 2021 &nbsp;·&nbsp;
-    <br>
   <strong>Type:</strong> Biomedical Engineering Project — University of Massachusetts
 </div>
 

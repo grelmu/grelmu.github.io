@@ -6,11 +6,8 @@ permalink: /projects/safer-travels/
 
 <div class="project-meta">
   <strong>Role:</strong> Owner &nbsp;·&nbsp;
-    <br>
   <strong>Timeline:</strong> April 2026 – Present &nbsp;·&nbsp;
-    <br>
   <strong>Type:</strong> Personal Project
-    <br>
 </div>
 
 ## Overview

@@ -6,9 +6,7 @@ permalink: /projects/resume-builder/
 
 <div class="project-meta">
   <strong>Role:</strong> Developer &nbsp;·&nbsp;
-    <br>
   <strong>Timeline:</strong> January 2026 – May 2026 &nbsp;·&nbsp;
-    <br>
   <strong>Type:</strong> User Design Project — University of Maine
 </div>
 
