@@ -16,7 +16,7 @@ FieldStack is a cloud-based retail operations platform that unified POS, e-comme
 
 ## My Role
 
-As a Software Development Intern, I worked as a full-stack developer on an engineering team of eight with a legacy system and shipped multiple features that reached production. I picked up tickets independently and proactively would search for more work when I finished. Technically, I worked primarily in WinForms and C# and was exposed to Blazor, HTML, and CSS.
+As a Software Development Intern, I worked as a full-stack developer on an engineering team of eight with a legacy system and shipped multiple features that reached production. I picked up tickets independently and proactively would search for more work when I finished. Technically, I worked primarily in WinForms, C#, and SQL and was exposed to Blazor, HTML, and CSS.
 
 ## What I Worked On
 
@@ -37,10 +37,10 @@ team's backlog during downtime. This includes a feature allowing clients to chan
 
 ## Technologies Used
 
-- C# with exposure to HTML, CSS
+- C#, SQL with exposure to HTML, CSS
 - ASP.NET, WinForms
 - Azure DevOps, Confluence
-- Visual Studio, Git
+- Visual Studio, SSMS, Git
 
 ## Links
 
