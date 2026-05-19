@@ -21,7 +21,7 @@ As a Software Development Intern, I worked as a full-stack developer on an engin
 ## What I Worked On
 
 **Customer Address-Blocking Feature**
-Designed and developed a feature that allows customers to block their address
+Designed and developed a feature that allows businesses to block customer's addresses
 from being used for same-day shipping, improving delivery driver safety. Architected the database and designed the management UI.
 
 ---
